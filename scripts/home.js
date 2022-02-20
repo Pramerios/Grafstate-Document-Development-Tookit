@@ -1,5 +1,5 @@
 function dfa() {
-    
+
 
     // DFA Skeleton
 
@@ -22,31 +22,31 @@ function nfa() {
 
 function gnfa() {
 
- // GNFA Skeleton
+    // GNFA Skeleton
 
- var gnfaSkel = ":+ gnfa MACHINE_NAME\n{\ntitle Untitled GNFA\nQ={qs, qf} /* Set of states used\nS={} /* Possible transition characters (excluding epsilon)\nq0=qs/* Starting state\nF={qf} /* Finishing state\n\n/* Transitions:\nqs->qf:\n}\n";
+    var gnfaSkel = ":+ gnfa MACHINE_NAME\n{\ntitle Untitled GNFA\nQ={qs, qf} /* Set of states used\nS={} /* Possible transition characters (excluding epsilon)\nq0=qs/* Starting state\nF={qf} /* Finishing state\n\n/* Transitions:\nqs->qf:\n}\n";
 
- document.getElementById("txtarea").value += gnfaSkel;
+    document.getElementById("txtarea").value += gnfaSkel;
 
 } //gnfa()
 
 function cfg() {
 
-// CFG Skeleton
+    // CFG Skeleton
 
-var cfgSkel = ":+ cfg MACHINE_NAME\n{\nV={} /* Set of variables used\nS={} /* Possible terminals (excluding epsilon)\nv0= /* Starting variable\n\n/* Rules (Variable->Terminal):\n -> \n -> \\e\n}\n";
+    var cfgSkel = ":+ cfg MACHINE_NAME\n{\nV={} /* Set of variables used\nS={} /* Possible terminals (excluding epsilon)\nv0= /* Starting variable\n\n/* Rules (Variable->Terminal):\n -> \n -> \\e\n}\n";
 
-document.getElementById("txtarea").value += cfgSkel;
+    document.getElementById("txtarea").value += cfgSkel;
 
 } //cfg()
 
 function pda() {
 
-// PDA Skeleton
+    // PDA Skeleton
 
-var pdaSkel = ":+ pda MACHINE_NAME\n{\ntitle Untitled PDA\nQ={qs, qf} /* Set of states used\nS={} /* Lexicon characters (excluding epsilon)\nT={} /* Stack Characters\nq0=qs/* Starting state\nF={qf} /* Finishing state\n\n/* Transitions (State->State:Read,Pop->Push):\nqs->qf: , \n}\n";
+    var pdaSkel = ":+ pda MACHINE_NAME\n{\ntitle Untitled PDA\nQ={qs, qf} /* Set of states used\nS={} /* Lexicon characters (excluding epsilon)\nT={} /* Stack Characters\nq0=qs/* Starting state\nF={qf} /* Finishing state\n\n/* Transitions (State->State:Read,Pop->Push):\nqs->qf: , \n}\n";
 
-document.getElementById("txtarea").value += pdaSkel;
+    document.getElementById("txtarea").value += pdaSkel;
 
 } //pda()
 
@@ -58,6 +58,4 @@ function add() {
 
 function exportCondoc() {
 
-
-    
 }

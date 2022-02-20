@@ -75,6 +75,7 @@ p {
 }
 
 .right {
+    flex: 1;
     padding: 10px;
 }
 

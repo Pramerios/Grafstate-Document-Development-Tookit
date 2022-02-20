@@ -7,94 +7,55 @@ h1 {
 }
 
 h6 {
-
     text-align: center;
     color: #5a756d;
     font-family: 'Abel', sans-serif;
-
 }
- 
+
 body {
-
     background-color: #0b1517 !important;
-
 }
 
 button {
-
     border-color: #9dd766;
     color: #fef7c7;
     padding: 10px 50px 10px 50px;
     background-color: #060909;
     outline: none;
     margin: 50%;
-
-    
-
 }
-  
-button:hover {
 
+button:hover {
     border-color: #9dd766;
     color: #fef7c7;
     padding: 10px 50px 10px 50px;
     background-color: #0b1517;
-
     outline: none;
-    
 }
 
 .btn {
-
     margin: 10px;
-
 }
 
 p {
-
     color: #fef7c7;
-
 }
-
-
-
-
-
-
 
 .btn_ribbon {
-
     text-align: center;
-    
-    }
-
-
-
-.editor_row {
-
-    display: flex;
-    margin:30px;
-
 }
 
-
-
-
-
-
-
+.editor_row {
+    display: flex;
+    margin: 30px;
+}
 
 .left {
-
-    width:50%;
     flex: 1 1 0px;
     padding: 10px;
-    
-
 }
 
 .txtarea {
-
     color: #fef7c7;
     width: 100%;
     padding: 3%;
@@ -107,36 +68,21 @@ p {
     font-family: 'Cutive Mono', sans-serif;
     font-weight: 100;
     background-color: #060909;
-    
-
 }
 
 .add_btn {
-
     text-align: center;
-
 }
 
-
-
-
-
-
-
-
 .right {
-
-    width:50%;
-    flex: 1;
     padding: 10px;
-
 }
 
 .condoc {
-
     background-color: #060909;
     padding: 3%;
-    height: 25px; /* Shouldn't be here, but it wasn't working. */
+    height: 25px;
+    /* Shouldn't be here, but it wasn't working. */
     font-family: "Cutive Mono";
     border-left: 10px solid;
     border-top: 0;
@@ -144,25 +90,13 @@ p {
     border-bottom: 0;
     border-width: thick;
     color: white;
-
 }
 
 .export_btn {
-
     text-align: center;
-
 }
 
-
-
-
-
-
-
-
 .footer {
-
     text-align: center;
     margin-top: 100px;
-
 }

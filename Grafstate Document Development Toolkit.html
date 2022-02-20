@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Grafstate Document Development Toolkit</title>
+    <!--Bootstrap Cdn -->
+
+    <!--Personal stylesheet-->
+    <link rel="stylesheet" href="stylesheets/stylesheet.css" />
+
+    <!--Personal stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--External JavaScript file-->
+    <script src="scripts/home.js"></script>
+
+    <!--Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet' />
+
+</head>
+
+<body>
+
+    <h1>Grafstate Document Development Toolkit</h1>
+
+    <!--Button Ribbon-->
+
+    <section class="btn_ribbon">
+
+        <button onclick=dfa()>DFA</button>
+        <button onclick=nfa()>NFA</button>
+        <button onclick=gnfa()>GNFA</button>
+        <button onclick=cfg()>CFG</button>
+        <button onclick=pda()>PDA</button>
+        <button onclick=tm()>TM</button>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Editor Row-->
+
+    <section class="editor_row">
+
+        <!--Left Side-->
+        <div class="left">
+
+            <!--Editor-->
+            
+            <textarea rows=20 spellcheck="false" class="txtarea" id="txtarea" placeholder="Enter Grafstate code..."></textarea>
+
+            <!--Add Button-->
+
+            <div class = "add_btn"><button onclick=add()>Add it!</button></div>
+
+        </div>
+
+        <!--Right Side-->
+        <div class="right">
+
+            <!--Constructed Document-->
+
+            <div class="condoc"><p id="condoc" style="height: 500px;"></p></div>
+
+            <!--Export Button-->
+
+            <div class="export_btn"><button onclick=exportCondoc()>Export it!</button></div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+
+    <section class="footer">
+
+        <h6>GDDT Created by Alex Fritz. Grafstate created by Bill Hollingsworth. © 2021 Cynsight, LLC. Grafstate® is a registered trademark of Cynsight, LLC.</h6>
+
+    </section>
+
+</body>
+
+</html>
